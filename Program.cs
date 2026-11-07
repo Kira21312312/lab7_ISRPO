@@ -139,14 +139,14 @@
 // }
 
 //Доп задание
-int[] arr = { 1, 2, 3, 4, 5, 6 };
-for (int i = 0; i < arr.Length/2; i++) {
-    int a = arr[i];
-    arr[i] = arr[arr.Length - 1 - i];
-    arr[arr.Length - 1 - i] = a;
+// int[] arr = { 1, 2, 3, 4, 5, 6 };
+// for (int i = 0; i < arr.Length/2; i++) {
+//     int a = arr[i];
+//     arr[i] = arr[arr.Length - 1 - i];
+//     arr[arr.Length - 1 - i] = a;
     
-}
+// }
 
-foreach (int i in arr) {
-    Console.WriteLine(i);
-}
+// foreach (int i in arr) {
+//     Console.WriteLine(i);
+// }
